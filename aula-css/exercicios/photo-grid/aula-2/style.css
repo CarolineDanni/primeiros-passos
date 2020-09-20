@@ -1,0 +1,75 @@
+body {
+    background: #5C0000;
+}
+header {
+    background-color: #890000;
+    height: 250px;
+} 
+a {
+     text-decoration-color: black;
+ }
+h1 {
+    color: #ffa700;
+    font-family: 'Times New Roman', Times, serif;
+}
+h4 {
+    color: #ffa700;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+}
+.imagem_perfil {
+    float: left;
+    height:200px;
+    border-radius: 45%;
+    margin-top: 25px;
+    margin-left: 150px;    
+}
+img {
+    display : block;
+    height: 600px ;
+    padding : auto;
+}
+.esquerda {
+    float: right;
+    height: 200px;
+    width: 50%;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+.center {
+    height: 50px;
+    width: 50%;
+    margin-top: auto;
+    margin-right:auto;
+}
+footer {
+    text-align: center;
+}
+.card {
+    width: 500px;
+    padding: 5px;
+    background: #fb7e00;
+    margin: 5px;
+    border: 1px solid #000000;
+}
+.card p {
+    font-size: 16px;
+    text-align: center;
+}
+.card img {
+    height: auto;
+    width: 100%
+}
+@media screen and (max-width: 400px) {
+    .card {
+     display: flex;
+     flex-direction: column;
+ }
+ }
