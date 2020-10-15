@@ -1,0 +1,41 @@
+body {
+    background: #ffa700;
+}
+header {
+    background-color: #890000;
+    display: flex;
+    height: 200px;  
+}
+h1 {
+    color: #ffa700;
+    font-family: 'Times New Roman', Times, serif;
+}
+.p {
+    font-size: 16px; 
+}
+.esquerda {
+    height: 50px;
+    width: 50%;
+    margin-top: 10px;
+    margin-right: 10px;
+    text-align: left;
+}
+.card {
+    display: flex;
+    width: auto;
+    padding: 10px;
+    background: #fb7e00;
+    margin: 5px;
+    border: 1px solid #000000;
+    text-align: justify;
+}
+.card img {
+    height:500px;
+    width: auto;
+}
+@media screen and (max-width: 400px) {
+   .card {
+    display: flex;
+    flex-direction: column;
+}
+}

@@ -3,9 +3,17 @@ programa
 	
 	funcao inicio()
 	{	
+		caracter sair = 'S'
 		real soma, sub, mult, div
-		real numero1, numero2
+		inteiro numero1, numero2
 		real op
+			
+		}
+		
+		enquanto (sair !='S') {
+			
+		}
+		
 		
 		escreva("Escolha a operação: \n")
 		escreva("1 - Soma \n")
@@ -40,8 +48,15 @@ programa
 	     senao{
 	     	escreva("Operação Inválida!")
 	     }
-	     
-	}
+	
+		
+	     escreva("\nDeseja sair\nS/N?")
+
+	     leia(sair)
+	     	
+	     	    
+    
+          }
 	
 }
 /* $$$ Portugol Studio $$$ 
@@ -49,7 +64,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 146; 
+ * @POSICAO-CURSOR = 52; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
