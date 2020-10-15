@@ -8,7 +8,8 @@ saoDiferentes() {
   if (numero1 == numero2) {
   alert("Não são diferentes");
 
-  let div = document.createElement('div');
+  let div = document.createElement('div1');
+  div.className = 'texto';
   div.innerText = 'Não são diferentes!';
   document.body.append(div);
   div.style.color = 'green';
@@ -18,7 +19,8 @@ saoDiferentes() {
   else { 
   alert("Os valores são diferentes");
 
-  let div = document.createElement('div');
+  let div = document.createElement('div1');
+  div.className = 'texto';
   div.innerText = 'São diferentes!';
   document.body.append(div);
   div.style.color = 'red';
@@ -28,14 +30,13 @@ saoDiferentes() {
 
 function
 resetar() {
-  document.querySelector('append').remove();
-  document.getElementById('#numero1').value('');
-  document.getElementById('#numero2').value('');
-  
+
+document.getElementById('numero1').value='';
+document.getElementById('numero2').value='';
+
+document.querySelector('div1').remove();
+document.querySelector('div2').remove();
+
 }
 
 
-
-
-
-  
